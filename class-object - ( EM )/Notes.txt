@@ -1,0 +1,18 @@
+
+
+
+ java - Naming Conventions
+ ---------------------------
+ 
+ 
+keywords ==> lower-case
+ 
+package-names ==> lower-case
+
+Types ( class , interface , enum , Annotation ) ==> pascal-case  ( A____B___C___ )
+
+var/method names  ==> camel-case  ( _____A____B____ )
+
+constant-var      ==> upper-case
+
+----------------------------------------------------------- 
