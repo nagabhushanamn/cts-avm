@@ -1,0 +1,292 @@
+
+
+java syntax
+------------
+
+
+A.Project-structure
+
+
+  proj
+  |
+  |--- pack1 ( .java / .class )
+  |
+  |--- pack2
+  | |
+    |----pack21
+
+
+-------------------------------------------------
+
+B. Java-file
+
+	Name.java
+   ----------------------------------
+   |
+   | a. package dec ( 1 )
+   | b. import statements ( n )
+   |
+   | c. public class Name ( 1 )
+   | d. default class ( n )
+   |
+   |
+   |----------------------------------
+
+-------------------------------------------------
+
+C. package dec 
+
+
+   why we need ?
+   
+   --> java files are easy to organize
+   --> to avoid type name collision
+   
+   
+   syntax:
+   
+   package root;
+   package root.sub1;
+   package root.sub1.sub2;
+   
+   -> recommended guide-line to write package dec
+   
+   e.g  org ==> cts ==> em ==> emp ==> Employee.java
+   
+   package c-type.c-name.p-name.m-name;
+   
+   package org.cts.em.emp;
+   
+   
+   -------------------------------------------------
+   
+   D. import statements
+   
+   proj
+   	- p1 ( A.java , B.java )
+   	- p2 ( C.java , D.java )
+   	- p3 ( C.java )
+   	-    -p31 ( E.java )
+   	      
+   	 
+   	package p1;
+   	
+   	import p2.C;
+   	import p2.D;
+   	
+   	// or
+   	
+   	import p2.*;
+   	import p3.*;
+   	import p3.p31.*;
+   	
+   	public class A{
+	   	p1.B b;
+	   	p3.C c;
+	   	D d;
+	   	E e;
+   	}
+   
+--------------------------------------------------
+
+
+ OO intro
+ ------------
+ 
+ 
+ what is an object ?
+ 
+ 	--> state ==> data,info,attr,props
+ 	--> behav ==> func,method,work,operation
+ 	--> indentity ==> addr,reference,location
+ 	
+ 	obj ==> SBI
+ 	
+ 	
+ what is class ?
+ 
+    --> obj's template/blue-print
+    --> description ( state-def & behav ) of similar objects
+ 	 
+ 	 
+ 	 
+ 	 class ==> instances/objects   
+ 
+
+-----------------------------------------------
+
+
+  OO concepts
+  ------------
+  
+  
+  1. Abstraction / Interface / Front-End
+  
+       2 types of objects
+       
+         a. dependent
+         b. dependency
+         
+         why we need ?
+         
+         --> easy to use/learn by dependent
+         --> for loose-coupling
+         
+  
+  2. Encapsulation / Implementation / Back-End
+  
+       --> implementation of abstraction
+       
+       why we need ?
+       
+       --> to hide implementation logic.
+       --> for security reasons , we should hide some impln parts.
+       
+       
+  3. Inheritance     
+  
+  
+  	  -> inherit/re-use common state-def & behav from generalized class
+  	     to specialized class's instances
+  	     
+  	     why we need ?
+  	     
+  	     --> can re-use common properties(state-def) & behav
+  	     --> to extend current system with new modules without changing exiting code
+  	     
+  4. Polymorphism ( many forms )
+  
+  		-> single instance do execute same behav in different way
+  		based on input params.
+  		
+  		why we need ?
+  		
+  		--> can re-use same instance.
+  		--> to satisfy 'closed for modification & open for extension' principle
+  		
+  ----------------------------------------------------------------------------------		
+  		
+  		
+  E. class-syntax
+  
+	
+	_______    ________  class Name [extends] BaseClass {
+	[public]   [abstract]           [implements] Interface(s)
+	[      ]   [final]           
+			   [strictfp]// state --> variables
+			    		     // constructor 
+			    		     // behavior --> function/method  
+	-------------------- // Inner class
+	[private]  [static] 
+    [public]			    
+	[protected]		              }
+	[        ]
+	  	     
+  	---------------------------------------------------------------------------       
+  
+    F. variable
+    
+     --> named reference variables to data in memory
+     --> data-structure / data-types
+     
+     2 types of data-types
+     
+       a. simple / primitives ( 8 )  ==> values
+       b. complex / reference       ==> objects   : user-defined types ( class , interface , enum , annotations )
+       
+       
+       
+       e.g
+       
+       class Employee{
+       	
+       	// class variables
+       	final static String compName="CTS";
+       	static String tnrName;
+       	
+       	// obj/instance variables
+       	int id;
+       	String name;
+       	final String v;
+       	
+       	Employee(int val){
+       		this.v=val;
+       	}
+       	
+       }
+       
+       
+       syntax
+       -------
+	       
+	  _______     _________ data-type varName=[value/object];
+	  [public]     [static]
+	  [private]    [final]
+	  [protected]  [transient]
+	  [        ]   
+
+  -----------------------------------------------------------------------
+
+
+    G. constructor
+    
+    
+    in java, obj creation is 2 step process
+    
+    step-1 : dynamic memory allocation from heap  ==> new
+    step-2 : fill that memory wth obj's data      ==> constructor
+    
+    
+    Type ref=new Constructor([args]);  
+
+
+
+	syntax:
+	---------
+	
+		___________ ClassName([args]){
+		[public]	     // Initialization logic
+		[private]
+		[protected]
+		[       ] 
+		            }
+
+-----------------------------------------------------------------------
+
+
+H. Methods  ==> behavior
+
+
+     syntax:
+     ------
+     
+     return-type
+     
+     -> void
+     -> Primitive / Reference
+     
+     
+   _______     _________ ReturnType methodName([args]){
+   [public]	   [static]  	
+   [private]   [final]  			// Arith , Relational & logical operators
+   [protected] [abstract]  		// Conditional statements ( if-else , switch-case )
+   [       ]   [synchronized]  	// Looping statements     ( for, while , do-while )
+      							// invoking other methods
+      	
+      						[return][result]  	
+      }
+
+------------------------------------------------------------------
+
+// k. Interface
+
+// I. Enum
+
+
+// J. Annotation
+
+
+------------------------------------------------------------------
+
+
+
