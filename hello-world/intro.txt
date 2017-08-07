@@ -1,0 +1,95 @@
+
+
+
+Java Tech
+-------------
+
+  1. Java SE ( cor java )
+  
+     a. stand-alone/desktop appln
+     b. n/w ing appln
+     
+  2. Java EE
+  
+     a. web - appln 
+     b. Enterpise - Appln 
+     
+   ------------------------------------
+   
+   Java programming style
+   
+   
+   style : component & container
+   
+   component ==> business logic
+   container ==> infra logic
+   
+   ------------------------------------
+   
+   1. Java SE
+   
+     a. application    ==> client-JRE. ( core java )
+     b. applet         ==> browser with JRE
+     
+   2. Java EE
+   
+     a. servlet& JSP.  ==> web-container e.g Tomcat 
+     b. EJB ( Enterprise Java Bean ). ==> EJB-container
+     
+   --------------------------------------    
+   
+   
+   
+   why java-lang ?
+   
+   --> platform-independent
+   --> OO lang	
+   --> able to develpe any size/type of s/w applications.
+   --> secure
+   --> cummunity support
+   --> huge resources 
+   --> many existing lib
+   --> proven lang.
+   
+   ---------------------------------------------
+   
+   
+   Java Environment
+   ----------------
+   
+   a. development
+   
+   		a. Editor/IDE. e.g Eclipse,Intellij,etc...
+   		
+   		b. JDK ( Java Developement Kit ) - 1.8
+   			i. Java Compiler
+   			ii. Java APIs
+   			....
+   
+   b. deployment/running
+   
+       a. JRE ..
+       
+       
+   ------------------------------------------------
+   
+   
+   HelloWorld
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+           
+                           
