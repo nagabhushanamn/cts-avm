@@ -2,34 +2,87 @@
 
 
 
- data-types 
- -----------
- 
- 
-
-    1. simple / primitives ==> values
-
-    		a. signed
-	    		i. integral 
-	    			byte  ( 8  )
-	    			short ( 16 )
-	    			int   ( 32 )
-	    			long  ( 64 )
-	    		ii. real
-	    			float  ( 32 )
-	    			double ( 64 )
-    		b. unsigned
-    		        char   ( 16 )
-    		c. boolean
-    				boolean ( 1 )
-
-    				
-     range formula : -2^n-1 to 2^n-1 -1
+	 data-types 
+	 -----------
+	 
+	    1. simple / primitives ==> values
+	
+	    		a. signed
+		    		i. integral 
+		    			byte  ( 8  )
+		    			short ( 16 )
+		    			int   ( 32 )
+		    			long  ( 64 )
+		    		ii. real
+		    			float  ( 32 )
+		    			double ( 64 )
+	    		b. unsigned
+	    		        char   ( 16 )
+	    		c. boolean
+	    				boolean ( 1 )
+	
+	    				
+	     range formula : -2^n-1 to 2^n-1 -1
+	     
+	     e.g byte ( 8 ): -128   to 127
+	     
+	     
+	     2. Reference Types  ==> objects
+	     
      
-     e.g byte ( 8 ): -128   to 127
      
      
-     2. Reference Types  ==> objects
+     
+     
+     
+     types of variables by life/scope
+     ---------------------------------
+     
+     
+     1. local variables
+     
+     	-> any variables declared within method or block
+     	-> method/block code executed, all local var will get vanished from memory
+     
+     2. obj/instance variables
+     
+         --> to hold obj's specific data 
+         --> data exist in memory, till that obj's life
+     
+     3. class/static variables
+     
+     	--> to hold class's data
+     
+     ------------------------------------
+     
+     
+     variable's default values
+     
+     
+     integral ==> 0
+     real     ==> 0.0
+     char     ==> \u0000
+     boolean  ==> false
+     
+     reference ==> null
+     
+     
+     ---------------------------------------
+     
+     imp-note : local variable never have default values, 
+                we must initialize them before use.
+     
+     --------------------------------------------------------------
+     
+     
+     Variables Use in Methods
+    
+     imp-note: we cant access non-static members in static methods
+     
+     
+     
+     --------------------------------------------------------------
+     
      
      
       
