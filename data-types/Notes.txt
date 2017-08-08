@@ -1,0 +1,39 @@
+
+
+
+
+ data-types 
+ -----------
+ 
+ 
+
+    1. simple / primitives ==> values
+
+    		a. signed
+	    		i. integral 
+	    			byte  ( 8  )
+	    			short ( 16 )
+	    			int   ( 32 )
+	    			long  ( 64 )
+	    		ii. real
+	    			float  ( 32 )
+	    			double ( 64 )
+    		b. unsigned
+    		        char   ( 16 )
+    		c. boolean
+    				boolean ( 1 )
+
+    				
+     range formula : -2^n-1 to 2^n-1 -1
+     
+     e.g byte ( 8 ): -128   to 127
+     
+     
+     2. Reference Types  ==> objects
+     
+     
+      
+     
+       				
+    				
+    				
