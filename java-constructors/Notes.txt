@@ -1,0 +1,43 @@
+
+
+in java, object creation is 2 step process
+
+step-1 : dynamic memory allocation   : new
+step-2 : fill that memory with obj's default/given values : constructor
+
+imp-notes:
+
+--> by default every java class has 1 default constructor (d.c )
+	when no constructor written by you
+
+--> D.C assign default-values to obj's variables
+
+
+-->	to create an object with mandatory properties,
+   	we shud write our own constructor with args
+   
+--> when we write our own constructor, then default wont exist   
+
+--> to create an object in many ways i.e with different params,
+    we can overload constructors ( i.e we can write many constructor in same class )
+    
+    
+    coding rules for overloaded-constructors
+    
+    must be different
+    
+    --> in number of arguments
+    
+    or
+    
+    --> type of arguments
+    
+    or
+    
+    --> order of arguments
+    
+    -----------------------------------------------------------
+    
+    
+    
+    
