@@ -2,8 +2,6 @@ package com.shop.bill;
 
 import com.shop.pm.PriceMatrix;
 
-
-
 public class BillingImpl {
 
 	private PriceMatrix priceMatrix;

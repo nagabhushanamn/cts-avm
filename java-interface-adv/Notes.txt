@@ -1,0 +1,8 @@
+
+
+
+
+  Obj
+  
+    -> Interface          : interface ( what )     ==> Abstraction
+    -> Implementation(s)  : class     ( How  )     ==> Encapsulation

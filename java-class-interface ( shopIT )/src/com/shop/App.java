@@ -15,7 +15,7 @@ public class App {
 		PriceMatrix priceMatrixV2 = new PriceMatrixImpl_v2();
 		PriceMatrix priceMatrixV3 = new PriceMatrixImpl_v3();
 
-		BillingImpl billComp = new BillingImpl(priceMatrixV3);
+		BillingImpl billComp = new BillingImpl(priceMatrixV2);
 		// use
 		String[] cart = { "34567", "87654", "67878" };
 		double totalPrice = billComp.getTotalPrice(cart);
