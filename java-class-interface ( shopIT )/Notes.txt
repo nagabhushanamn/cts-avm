@@ -1,0 +1,17 @@
+
+
+	-----------------------------------------
+	
+	e.g  shopIT
+
+     1. Billing     : getTotalPrice(cart)   -> dependent
+     2. PriceMatrix : getPrice(item)        -> dependency
+     
+     ------------------------------------------
+     
+     
+     
+     OO principle
+     --------------
+     
+     "closed for modification , & open for Extension "
