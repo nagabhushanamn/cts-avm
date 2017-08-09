@@ -35,7 +35,6 @@
  
   --> using access-specifiers & packages
   --> using accessor-methods ( set & get )
-  
   --> using class & interface types
   --> using proper OO design patterns ( best practices )
   
@@ -73,6 +72,36 @@
  public         Y           Y           Y              Y           Y
  
  
- --------------------------------------------------------------------------------------------------
+ -------------------------------------------------------------------------------------------------- 
+
+ --> using accessor-methods ( set & get )
+
+ 
+ -------------------------------------------------------------------------------
+ 
+ 
+ 
+
+ using class & interface 
+ ------------------------
+ 
+   1. dependency
+   2. dependent
+   
+   e.g
+   
+      Wheel : rotate()
+      Car   : move()
+      
+ 
+ -------------------------------------
+ 
+      
+ 
+ 
+ 
+ 
+ 
+ 
  
     
