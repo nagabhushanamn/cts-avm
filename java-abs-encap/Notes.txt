@@ -1,0 +1,78 @@
+
+  2 types of objects
+  -----------------------
+       
+     a. dependent
+     b. dependency
+         
+         
+
+  1. Abstraction / Interface / Front-End
+  
+         why we need ?
+         
+         --> easy to use/learn by dependent
+         --> for loose-coupling
+         
+  
+  2. Encapsulation / Implementation / Back-End
+  
+       --> implementation of abstraction
+       
+       why we need ?
+       
+       --> to hide implementation logic.
+       --> for security reasons , we should hide some impln parts.
+ 
+ ------------------------------------------------------------------------   
+ 
+ 
+ 
+ how to implement in java-lang ?
+ 
+ 
+ many ways
+ 
+  --> using access-specifiers & packages
+  --> using accessor-methods ( set & get )
+  
+  --> using class & interface types
+  --> using proper OO design patterns ( best practices )
+  
+  -------------------------------------------------
+ 
+ 
+ using access-specifiers & packages
+ 
+ e.g
+ 
+ 	proj
+ 	
+ 		- p1 
+ 		
+ 			A ( target )
+ 			B  extends A
+ 			C
+ 		
+ 		- p2
+ 		
+ 		    D extends A
+ 		    E
+ 
+ 
+ 
+	       ---------------------------------------------------------------------------------
+	 		same-package                  		| other-package
+	 	   ---------------------------------------------------------------------------------	
+	        same-class | sub-class | other-class | sub-class | other-class
+	 	   ---------------------------------------------------------------------------------	
+	 	
+ private        Y           N           N              N           N
+ (      )       Y           Y           Y              N           N
+ protected      Y           Y           Y              Y           N
+ public         Y           Y           Y              Y           Y
+ 
+ 
+ --------------------------------------------------------------------------------------------------
+ 
+    
