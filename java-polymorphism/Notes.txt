@@ -1,0 +1,12 @@
+
+
+
+   Polymorphism
+   --------------
+   
+   ==> object doing same behav in different way based on input params
+   
+   
+   1. static poly   ==> with method overloading
+   2. dynamic poly  ==> with method overriding
+   

@@ -1,0 +1,15 @@
+
+
+
+
+  java-app
+  -----------
+  
+  my-module 
+  -----------
+ 
+  Top-Level    : Interface   ( design-level java coding )
+   
+  Middle-Level : Partial-Implementation ( Abstrac-Class ) --> optional ( required only if there is inheritance )
+  
+  Bottom-Level : Implementation(s) ( class )

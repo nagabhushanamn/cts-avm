@@ -1,0 +1,13 @@
+
+
+
+  Abstract-Class
+  -----------------
+  
+  in inheritance hierarchy ,
+   if any top-level class which is not eligible for instantiation
+   
+   if any class has at-least one abstract method, 
+   then class need to abstract
+   
+   
