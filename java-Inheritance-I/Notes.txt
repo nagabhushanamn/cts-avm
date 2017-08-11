@@ -1,0 +1,20 @@
+
+
+
+  inheritance 
+  --------------
+  
+     inherit common props/methods from generalized-class ( base/super/parent )
+     to specializd class's objects
+     
+     why we need ?
+     
+     --> code re-use
+     --> easy to extend with new modules
+     
+     
+     ----------------------------------------------------- 
+  
+  	imp-note:
+  	
+  	=> sub-class -IS-A  super-class

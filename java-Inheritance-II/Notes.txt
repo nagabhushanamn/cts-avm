@@ -1,0 +1,21 @@
+
+
+
+  overriding
+  -------------
+  
+    re-implementing base-class method with different-logic
+    
+    
+    coding rules
+    ---------------
+    
+    must be same
+    
+      --> method-name
+      --> type & order & number of args
+      --> return type
+      
+    may different
+    
+     --> access specifiers , but shut not reduce visibility
