@@ -1,0 +1,41 @@
+
+
+
+  ==> string ==> group of chars
+  
+  ==> all strings are objects
+  
+  how to create String objects
+  
+  using built-in classes
+  
+    a. String    ==> immutable
+    b. StringBuffer ==> mutable
+    c. StringBuilder
+    
+ ----------------------------------------------------------------
+ 
+ imp-note : we can create String objects without 'new' operator    ( literal obj )
+ 
+ ----------------------------------------------------------------
+ 
+ Java runtime has special allocated memory ( SCP => String Constant Pool ) 
+ for String objects which are created without 'new' keywords
+ 
+ ----------------------------------------------------------------
+ 
+ SCP can hold only unique objects
+ 
+ -----------------------------------------------------------------
+ 
+ 
+ imp-note : by default all string objects immutable/constants
+
+     for security reasons, we can't mutate Strings , trying to yields new String
+     
+-----------------------------------------------------------------     
+ 
+ 
+ 
+ 
+ 
