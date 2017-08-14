@@ -1,0 +1,79 @@
+
+
+  Exceptions
+  ------------
+  
+  un-expected program flow disturbs
+  
+  
+  reasons for exceptions
+  
+  --> int, divide by zero
+  --> array index out of bound
+  --> class cast exception
+  --> Number format exceptions
+  ...........
+  
+  -------------------------------------
+  
+  
+  what happen if exception occurred ?
+  
+  by default , to be safe , JRE will terminate current process.
+  
+  
+  Soln:
+  
+   --> we should handle
+   
+   
+  ----------------------------------------
+  
+  
+  How to handle Exceptions ?
+  
+  using
+  
+  --> try,catch,finaly.. blocks 
+  --> throw
+  --> throws
+  
+  ------------------------------------------
+  
+  
+  Advantages Exception Handers ?
+  
+  Advantage 1: Separating Error-Handling Code from "Regular" Code
+  Advantage 2: Propagating Errors Up the Call Stack
+  Advantage 3: Grouping and Differentiating Error Types
+  
+  ----------------------------------------------
+  
+  every exception is an object, which contains details (what,why,where) of exception cause
+  
+  
+  ----------------------------------------------
+  
+   2 types of exception
+   
+   A. Checked Exception
+   B. UnChecked Exception
+   
+   ---------------------------------------------
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
