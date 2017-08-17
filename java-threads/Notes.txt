@@ -1,0 +1,79 @@
+
+
+Multi-Threading
+-----------------
+
+  ==> bringing concurrency within java-process.
+  
+  
+  
+  process vs thread
+  
+  
+  process
+  
+    ==> whole execution in OS
+    ==> has its own memory
+    ==> inter process communication can happen thru OS  ( IPC )
+    
+    
+  thread
+  
+    ==> light-weight process
+    ==> every process by default has 1 thread ( main thread )
+    ==> group of threads can make 1 process
+    ==> threads can share same-memory within process
+    
+   -----------------------------------------------------
+   
+   
+   Advantages of MT
+   
+   --> utilizing CPU / system resources at max-rate 
+   --> to provide rich experience to end-user.
+   
+ 
+  -----------------------------------------------------
+  
+  
+  e.g
+  
+    --> web-server
+    --> batch-processing appln
+    --> big enterprise appln  
+    
+   ---------------------------------------------------
+   
+   
+    imp-notes
+    
+    --> by default every java-appl-process has 1 main thread
+    --> main-thread uses 'main()' method 
+    
+    
+    How to bring multiple threads ?
+    
+    using 'java.lang.Thread' class
+    
+    -----------------------------------------------------
+    
+    basic steps to create new-thread ?
+    
+    
+    
+    --> create instance of 'java.lang.Thread' class ( new-thread )
+    --> provide 'runnable' object
+    --> start new-thread , 'thread.start()'  ==> new-stack
+    --> manage thread lifecycle
+    
+    
+    ---------------------------------------------------------
+    
+    
+    
+    
+    
+    
+    
+   
+   
