@@ -1,31 +1,36 @@
 package com;
 
+/*
+ *   How to implement MT in java ?
+ *   
+ *   --> by implementing 'Runnable' interface
+ *   --> by extending 'Thread' class
+ *   
+ * 
+ */
+
 class Work implements Runnable {
 
-	public void doWork() {
+	@Override
+	public void run() {
 		String name = Thread.currentThread().getName();
 		System.out.println(name + " working...");
 	}
 
-	@Override
-	public void run() {
-		System.out.println(Thread.currentThread().getName() + "+ start");
-		doWork();
-	}
 }
 
 public class Multi_Thread_App {
 
 	public static void main(String[] args) {
 
-		System.out.println(Thread.currentThread().getName() + "- start");
+		String name = Thread.currentThread().getName();
+		System.out.println(name + " start");
 
-		Work work = new Work();
-		Thread thread = new Thread(work, "mythread");
-		thread.start(); // new-stack..
-		System.out.println(Thread.currentThread().getName() + "- created new-thread");
+		Work target = new Work();
+		Thread thread = new Thread(target,"T1");
+		thread.start();
 
-		System.out.println(Thread.currentThread().getName() + " - cont with other work");
+		System.out.println(name + "cont....");
 
 	}
 

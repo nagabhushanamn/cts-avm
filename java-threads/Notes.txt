@@ -69,6 +69,66 @@ Multi-Threading
     
     ---------------------------------------------------------
     
+    best-practices
+    
+    --> thread-management always need be external to appln code by any F.W or Servers  (E.g thread-pools)
+    --> create runnable objects , assign them to existing threads
+    	so
+    	implementing Runnable interface approach in best choice
+    	
+    	
+    	--> if any class's instances need to be thread , 
+    	    then use 'extending' thread class  ( but not recommended )
+    
+    
+    
+    ------------------------------------------------------------
+    
+    Thread-Life cycle
+    -------------------
+    
+    
+    demo
+    
+    
+    -----------------------------------------------------------
+    
+    
+    Basic Thread Scheduling
+    ------------------
+    
+    sleep()
+    join()
+    setPriority()
+    yield()
+    
+    ------------------------------------------------------
+    
+    
+    
+    Thread Synchronization
+    ---------------------
+    
+ 
+    --> owning shared resource to one thread for its complete work
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     
