@@ -1,0 +1,22 @@
+
+
+  java inner-class
+  --------------------------
+  
+  
+  4 types
+  
+   a. non-static
+   b. static
+   c. local
+   d. anonymous  ( most used )
+   
+   ------------------------------
+   
+   why we need ?
+   
+    --> for tight class encapsulation
+    --> a inner class can access private members of outer class
+   
+   
+   ------------------------------- 
