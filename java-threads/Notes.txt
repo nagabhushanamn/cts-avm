@@ -1,0 +1,139 @@
+
+
+Multi-Threading
+-----------------
+
+  ==> bringing concurrency within java-process.
+  
+  
+  
+  process vs thread
+  
+  
+  process
+  
+    ==> whole execution in OS
+    ==> has its own memory
+    ==> inter process communication can happen thru OS  ( IPC )
+    
+    
+  thread
+  
+    ==> light-weight process
+    ==> every process by default has 1 thread ( main thread )
+    ==> group of threads can make 1 process
+    ==> threads can share same-memory within process
+    
+   -----------------------------------------------------
+   
+   
+   Advantages of MT
+   
+   --> utilizing CPU / system resources at max-rate 
+   --> to provide rich experience to end-user.
+   
+ 
+  -----------------------------------------------------
+  
+  
+  e.g
+  
+    --> web-server
+    --> batch-processing appln
+    --> big enterprise appln  
+    
+   ---------------------------------------------------
+   
+   
+    imp-notes
+    
+    --> by default every java-appl-process has 1 main thread
+    --> main-thread uses 'main()' method 
+    
+    
+    How to bring multiple threads ?
+    
+    using 'java.lang.Thread' class
+    
+    -----------------------------------------------------
+    
+    basic steps to create new-thread ?
+    
+    
+    
+    --> create instance of 'java.lang.Thread' class ( new-thread )
+    --> provide 'runnable' object
+    --> start new-thread , 'thread.start()'  ==> new-stack
+    --> manage thread lifecycle
+    
+    
+    ---------------------------------------------------------
+    
+    best-practices
+    
+    --> thread-management always need be external to appln code by any F.W or Servers  (E.g thread-pools)
+    --> create runnable objects , assign them to existing threads
+    	so
+    	implementing Runnable interface approach in best choice
+    	
+    	
+    	--> if any class's instances need to be thread , 
+    	    then use 'extending' thread class  ( but not recommended )
+    
+    
+    
+    ------------------------------------------------------------
+    
+    Thread-Life cycle
+    -------------------
+    
+    
+    demo
+    
+    
+    -----------------------------------------------------------
+    
+    
+    Basic Thread Scheduling
+    ------------------
+    
+    sleep()
+    join()
+    setPriority()
+    yield()
+    
+    ------------------------------------------------------
+    
+    
+    
+    Thread Synchronization
+    ---------------------
+    
+ 
+    --> owning shared resource to one thread for its complete work
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+   

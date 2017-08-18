@@ -1,0 +1,149 @@
+
+
+data-structures  & Algorithms
+---------------------------------
+
+  ==> organizing memory for data 
+  
+  2 types
+  ---------
+  
+  
+  	--> primary   ==> single data-element
+  	
+  			=> 8 primitives
+  	
+  	--> secondary ==> multi data-elements
+  	
+  	
+  	    a. linear
+  	    
+  	    		-> array
+  	    		-> linkedlist
+  	    		-> stack
+  	    		-> queue
+  	    
+  	    b. non-linear
+  	    
+  	        -> tree
+  	        -> graph
+  	        
+  	        ..................... 
+  	    
+  	    
+  	
+  
+--------------------------------------------------
+
+
+ Analysis
+ 
+   --> space complexity
+   --> time complexity
+   
+--------------------------------------------------
+
+
+
+Collecton F.W
+---------------   
+
+
+	--> defined/ready-made data-structure implementations in java-lang from java-community
+	--> group of objects(data)
+
+
+
+Advantages
+-----------
+
+--> Reduces programming effort
+--> Increases program speed and quality
+--> Allows interoperability among unrelated APIs:
+--> Reduces effort to learn and to use new APIs
+
+-------------------------------------------------------------------------
+
+
+
+3 types of collection
+
+
+1. List
+
+	--> ordered o/p
+	--> Indexed
+	--> can hold duplicate instances
+
+2. Set
+
+	--> No Index
+	--> unique 
+	
+
+3. Map
+
+     key + object
+     
+     --> every object in map collection , mapped with user
+     
+----------------------------------------------------
+
+
+
+Collection Classes
+-----------------------
+
+
+A. List
+
+    - Vector     ==> dynamic-array  (  thread-safe )
+	- ArrayList  ==> dynamic-array    
+    - LinkedList ==> double linked list 
+    
+
+
+B. Set
+
+	- TreeSet    ==> tree   --> sorted
+	- HashSet    ==> hashtable --> un-ordered
+	- LinkedHashSet ==> DLL + Hashtable  --> ordered
+	
+	
+C. Map
+
+	- TreeMap    ==> tree   --> sorted
+	- HashMap    ==> hashtable --> un-ordered
+	- LinkedHashMap ==> DLL + Hashtable  --> ordered
+
+
+    - Hashtable   ==> hashtabe  ( thread-safe )
+    
+    
+D. Other
+
+   -> Stack
+   -> Queue
+   
+   .............    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

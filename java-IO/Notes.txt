@@ -1,0 +1,87 @@
+
+
+
+  Input/Output sources  for Java-Programs
+  ------------------------------------
+  
+  
+  --> System.in  , System.out
+  --> buffer
+  --> files
+  --> n/w sockets
+  
+  
+  
+  types of input/output data
+  
+  
+  
+  1. 8-bit / byte-stream
+  2. 16-bit /character-stream
+  
+  
+  IO Classes ( java.io )
+  
+  byte-stream
+  
+  --> InputStream  ==> reads 8-bit
+  --> OutputStream ==> write 8-bit
+  
+  character-stream
+  
+  --> Reader       ==> reads 16-bit
+  --> Writer        ==> write 16-bit
+  
+  --------------------------------------
+  
+  
+  source : file
+  
+  8-bit
+  
+  	--> FileInputStream
+  	--> FileOutputStream
+  	
+  16-bit
+  
+    --> FileReader
+    --> FileWriter
+    
+   -----------------------------------------
+   
+   
+  source : buffer
+  
+  8-bit
+  
+  	BufferedInputStream
+  	BufferedOutputStream
+  	
+  16-bit
+  
+    BufferedReader
+    BufferedWriter
+    
+  ---------------------------------------------
+  
+  
+  to convert 8-bit data 16-bit
+  
+  	InputStreamReader
+
+   -------------------------------------------
+   
+   To write 8-bit on any source
+   
+   	PrintStream
+   
+   To write 16-bit on any source
+     
+   	PrintWriter 	   	
+   	
+   -------------------------------------------	
+  
+  
+  
+  
+  
