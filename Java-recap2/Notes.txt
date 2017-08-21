@@ -1,0 +1,24 @@
+
+
+
+   
+   Door
+     - list of doorListeners ( light , AC)
+     - addDoorListener
+     - removeDoorListner
+     - open
+     - close
+   ---------------------------------
+   
+   Light
+   AC
+   Projector  
+   ....
+   ----------------------------------
+   
+   Door door=new Door();
+   door.open();  
+   door.close()
+   
+   ----------------------------------
+   

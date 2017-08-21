@@ -1,0 +1,75 @@
+
+
+
+OO - design patterns
+ ---------------------
+ 	  1. Creational
+ 	  2. Structural Patterns   
+ 	  3. Behavioral Patterns
+ 	  
+------------------------------- 	  
+
+
+   1. Singleton
+   
+   
+   when we need ?
+   
+   --> for costly ( time / memory )  object
+   
+   e.g
+   
+   --> DeviceDriver
+   --> Thread/Connection pool
+   --> Application Wide config obj
+   
+   
+ --------------------------------------
+ 
+ 
+ Garbage Collection
+ 
+ 
+   --> cleaning/deleting un-used java projects
+   
+   
+ -------------------------------------  
+ 
+ 
+ Serialization
+ 
+ 
+    converting java-obj to byte-stream , then ,
+    store/save in file-system or transfer over n/w to another java appln
+ 
+ 	why we need  ?
+ 	
+ 	--> keep passive/in-active objects outside heap memory
+ 	--> to distribute/share java-objects over n/w to other-java appln.
+ 	
+ 
+ transient
+ 
+   --> prevents obj's property on serialization
+   
+   when to use ?
+   
+   --> for secure obj's properties
+   --> for resource properties ( e.g DB collection , IO stream )
+ 
+ ----------------------------------------------------------------
+   
+   
+   
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
