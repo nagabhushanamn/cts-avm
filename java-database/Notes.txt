@@ -1,0 +1,108 @@
+
+
+
+
+  Java + Database
+  ------------------------
+  
+    
+  
+	s/w application
+	
+		a. Application  ==> process data based on B.L
+		b. DataSource   ==> persist data 
+		
+			- files
+			- RDBMS  ( our foucs )
+			- NoSQL
+			- etc.. 
+
+    ---------------------------------------			
+    
+       A. Application
+          --> Object Model ( i.e Abs,Encap,Inheritance,Poly,...)
+       B. Relational Database
+          --> Relational(table) Model ( i.e table, primary-key , F.W , Normalization )
+           
+      ------------------------------------------------     
+      ORM ( Object Relational Mapping )
+      -------------------------------------------------
+      How to do ORM in java-lang ?
+       --> using 'JDBC' API
+	 ---------------------------------------------------------------------	       
+       
+       Basic steps to Use JDBC API ?
+       
+       
+       1. Need to register Jdbc-Driver with JDBC API's DriverManager
+       2. create connection with URL,User & Password
+      
+       3. create jdbc-statements with SQL
+       4. execute JDBC statements & process results
+       
+       5. handle SQLException 
+       6. Manage Transactions ( all file 'commit' else 'rollback' ) if required
+       
+       7. Close Connection
+       
+       -----------------------------------------------------------------
+       
+       
+       
+       
+       App : PM
+       
+       
+       Relational Model
+       -----------------
+       
+       create database pm;
+       use pm;
+       
+       create table pm.PRODUCTS(
+       	id int primary key,
+       	name varchar(50),
+       	price double,
+       	makeDate date,
+       	description varchar(200)
+       );
+       
+       
+       
+       Object Model
+       ----------------
+       
+       --> java-class
+       
+       
+      -----------------------------------------------
+      
+      
+      
+      Jdbc-Driver
+      ------------
+      
+      1. Type-1  / JDBC-ODBC bridge 
+      2. Type-2
+      3. Type-3
+      4. Type-4 / pure-java Driver  
+      
+      	-> are not part of JDK, we must download from DBMS vendor-site
+      
+      
+      ---------------------------------------------------------------
+      
+      
+      
+       
+            
+       
+       
+       
+       
+       
+       
+    
+    
+    
+    
