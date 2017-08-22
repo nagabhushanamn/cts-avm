@@ -1,0 +1,32 @@
+
+
+  Todos-Management App
+  ----------------------
+  
+  Todo
+  	id
+  	title
+  	completed
+  --------------------
+  7 use-cases	
+  ADD_TODO
+  DELETE_TODO
+  EDIT_TODO
+  COMPLETE_TODO
+  COMPLETE_ALL
+  CLEAR_COMPLETED
+  VIEW_TODOS(filter)  ==> filter == "all" | "active" | "completed"
+  
+  ----------------------
+  model ( data )
+  	Todo  
+  service
+  	TodoService   : Logic  with List-colln
+   app
+   TodoApp        : invoke
+ ------------------------  
+   	 		
+  	
+  	
+  
+  
