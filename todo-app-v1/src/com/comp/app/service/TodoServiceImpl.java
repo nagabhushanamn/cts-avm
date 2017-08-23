@@ -18,9 +18,9 @@ public class TodoServiceImpl implements TodoService {
 	@Override
 	public void addTodo(String title) {
 
-		Todo newTodo = new Todo();
-		newTodo.setId(todoIdx + 1);
-		newTodo.setTitle(title);
+		Todo newTodo = new Todo(todoIdx + 1, title);
+		// newTodo.setId(todoIdx + 1);
+		// newTodo.setTitle(title);
 		newTodo.setCompleted(false);
 		newTodo.setCategory(TodoCategory.PERSONAL);
 
