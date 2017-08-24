@@ -6,8 +6,8 @@ public class Car {
 
 	Wheel wheel;
 
-	public void setWheel(Wheel wheel) {
-		this.wheel = wheel;
+	public void setWheel(Wheel w) {
+		this.wheel = w;
 	}
 
 	public void move() {

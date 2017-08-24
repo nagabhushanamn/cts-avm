@@ -1,0 +1,106 @@
+
+
+   java-collections  ( data-structures )
+   ------------------------------------
+   
+	   
+	   data-structure & Algorithms
+	   -------------------------------------
+	   
+	    -> organizing memory to do CRUDSS operation
+	    
+	    
+	    types:
+	    ------
+	    
+	    a. linear/list/indexed
+	    
+	    		1. array
+	    		2. linkedlist
+	    		......
+	    		
+	    
+	    b. non-linear
+	    
+	        1.Tree
+	        
+	        ..
+	    
+	    
+    -----------------------------------------------
+    
+    
+    java collections
+    -----------------
+    
+    A. List
+    
+    		--> indexed
+    		--> ordered
+    		--> can hold duplicate
+    
+    B. Set
+    
+    		--> No-Index
+    		--> Unique
+    
+    C. Map
+    
+        --> to maintain data-elements(objects) with out identity
+        -> Key + Value
+       
+---------------------------------------------------------   
+
+
+    java collections-interface
+    ---------------------------- 
+    
+    
+    ref : http://4.bp.blogspot.com/-DvsfKh9clI0/UU3sK7J17jI/AAAAAAAAARU/VnHJDjImzw4/s1600/java-collection-hierarchy.png
+    
+    
+    
+    List
+    -------
+    		1. ArrayList    ==> array
+    		2. LinkedList   ==> double-linked-list
+    		3. Vector       ==> array  ( thread-safe )
+    		4. Stack        ==> array  ( LIFO )
+    Set
+    -------
+    		1. TreeSet     ==> tree   ( sorted )
+    		2. HashSet     ==> hashtable ( unordered ) --> good in performance
+    		3. LinkedHashSet ==> DLL + hashtable       ( ordered )
+    Queue
+    -------
+    	    1. LinkedList
+    	    2. PrirorityQueue
+    	    ......... 		 		
+    		
+	-----------------------------------------
+	
+	Map
+	----
+	
+        1. TreeMap     ==> tree   ( sorted )
+    		2. HashMap     ==> hashtable ( unordered ) --> good in performance
+    		3. LinkedHashMap ==> DLL + hashtable  		    
+    
+    		
+        4. Hashtable ( thread-safe )
+        5. Properties ( thread-safe )
+        
+     ---------------------------------------------   
+     
+     
+     From JDK 1.5 version
+     
+     --> using type-safe ( with generics ) collections are recommended
+     
+         
+    
+    ---------------------------------------------   
+    
+    
+    
+    
