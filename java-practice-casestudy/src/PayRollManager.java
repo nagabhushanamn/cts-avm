@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 
+// by Nag
 public class PayRollManager {
 
 	// Create methods and type your code here
